@@ -1,0 +1,131 @@
+*{
+   box-sizing: border-box;
+}
+
+.container{
+   width: 1240px;
+   margin: 0 auto;
+   padding: 0 20px;
+}
+
+.site-header{
+   background-color: rgb(245,244,242);
+}
+
+.header-box{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 30px;
+}
+
+.logo-link{
+   text-decoration: none;
+}
+
+.header-box-item{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.header-list{
+   display: flex;
+   align-items: center;
+}
+
+.header-item{
+   list-style: none;
+   margin-right: 50px;
+}
+
+.header-link{
+   text-decoration: none;
+   color: #333;
+   font-size: 16px;
+   font-family: "Inter", "Arial", sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   line-height: normal;
+}
+
+.header-form{
+   color: #666;
+   font-size: 12px;
+   font-family: "Inter", "Arial", sans-serif;
+   font-style: italic;
+   font-weight: 300;
+   align-items: center;
+}
+
+.form-input{
+   color: #666;
+   padding: 8px;
+   border-radius: 3px;
+   background: #d0ffd2;
+}
+
+.fa-user-o{
+   margin-left: 60px;
+}
+
+.hero{
+   padding-top: 287px;
+   padding-bottom: 234px;
+   background-image: url("./images/mainback.png");
+   background-repeat:no-repeat;
+   background-size: 100%;
+}
+
+.hero-box{
+   width: 689px;
+}
+.hero-persentage{
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 29px;
+   color: #ffb12b;
+   margin-bottom: 10px;
+}
+
+.hero-title{
+   font-family: "Inter","Arial",sans-serif;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 64px;
+   line-height: 74px;
+   color: #333;
+   margin-top: 0;
+   margin-bottom: 30px;
+}
+
+.hero-desc-box{
+   width: 535px;
+}
+
+.hero-desc{
+   font-family: "Inter","Arial",sans-serif;
+   font-style: normal;
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 26px;
+   color: #333333;
+   margin-top: 0;
+   margin-bottom: 40px;
+}
+
+.hero-link{
+   background-color: #18bd4f;
+   border-radius: 5px;
+   font-family: "Inter";
+   font-style: normal;
+   font-weight: 500;
+   display: inline-block;
+   font-size: 18px;
+   line-height: 22px;
+   color: #fff;
+   padding: 9px 25px;
+   text-decoration: none;
+}
